@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 33
+    namespace "com.workese.mobileapp"
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 16
