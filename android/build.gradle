@@ -2,13 +2,15 @@ group 'xyz.justsoft.video_thumbnail'
 version '1.0-SNAPSHOT'
 
 buildscript {
+    ext.kotlin_version = '2.0.10'
+
     repositories {
         google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.android.tools.build:gradle:8.1.0'
     }
 }
 
